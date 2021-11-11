@@ -40,7 +40,7 @@ namespace LojaVirtual
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
-            app.UseDefaultFiles(); //html estático
+            //app.UseDefaultFiles(); //html estático
             app.UseStaticFiles();
 
             app.UseRouting();
